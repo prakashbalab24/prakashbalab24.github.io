@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Android open source">
-<meta name="keywords" content="stackoverflow,stack exchange,stack exchange api,stackexchange api,Android,Open source,Android open source,Android apps,Android Open apps, Android Open source application,open source apps">
+<meta name="keywords" content="Android flash light, flashlight, sms reader, auto read sms, sms flash light controller, android open source">
 <meta name="author" content="prakashbalab24">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>open source android - Stack Exchange Login</title>
+    <title>open source android - Flash Light Controller</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -59,14 +59,15 @@
 	<div class="container pt">
 		<div class="row mt">
 			<div class="col-lg-6 col-lg-offset-3 centered">
-				<h3>Login using Stack Exchange</h3>
+				<h3>Flash Light Controller using SMS</h3>
 				<hr>
-				<p>This is an Android app which has a single login button which uses Stack Exchange Api for Aunthetication.
-				 After the Sucessful Authentication, the app will display the 'Profile Picture' , 'User Name' and 'Location' of the signed in user.<br/>
-				 Please Register<a href="https://stackapps.com/apps/oauth/register"> Here!</a> and get "Client Id" and "Key" and paste it inside this
-  <a href="https://github.com/prakashbalab24/StackExchange-Login/blob/master/gradle.properties">properties.gradle</a> to make this app work.
-				 <br/> Full Documentation<a href="https://api.stackexchange.com/docs"> Here!</a>  </p>
-				 <h1><a href="https://github.com/prakashbalab24/StackExchange_Login">Full Source code</a></h1>
+				<p>This is an Android app which will control your flash light using SMS. If the received SMS contains "flashon" or
+				"flashoff" the flash light will turn on or off with the respective keyword.</p><br/>
+				<h3>List of Android Components used:</h3>
+				<p>Android Service<br>
+				Brodcast Receiver<br>
+				Flash Light Control</p><br>
+				 <h1><a href="https://github.com/prakashbalab24/Flash-controller-using-sms">Full Source code</a></h1>
 			</div>
 		</div>
 		<div class="row mt centered">	
